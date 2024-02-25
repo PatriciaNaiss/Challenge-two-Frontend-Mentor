@@ -1,0 +1,120 @@
+* {
+  Box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  background-color: #f2ebe3;
+  color: #6c7289;
+}
+
+main {
+  border-radius: 10px;
+  width: 90%;
+  background-color: #ffffff;
+}
+
+section img {
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+  height: auto;
+}
+section .bild-mobile {
+  display: block;
+}
+section .bild-desktop {
+  display: none;
+}
+
+article {
+  padding: 20px;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 12px;
+}
+
+h1 {
+  color: #1c232b;
+  margin: 0;
+  font-size: 30px;
+  font-family: "Fraunces", serif;
+}
+
+p {
+  line-height: 20px;
+}
+
+.preis {
+  font-family: "Fraunces", serif;
+  font-size: 30px;
+  color: #3c8067;
+}
+
+.preis-box {
+  display: flex;
+  align-items: center;
+}
+
+.sale {
+  margin-left: 20px;
+  font-size: 12px;
+  text-decoration: line-through;
+}
+
+a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  background-color: #3c8067;
+  border-radius: 10px;
+  text-decoration: none;
+  padding: 15px;
+  color: #ffffff;
+  font-weight: 700;
+  transition: 0.4s;
+}
+a:hover {
+  background-color: #1A4031;
+}
+a img {
+  margin-right: 10px;
+}
+
+@media screen and (min-width: 800px) {
+  main {
+    display: flex;
+    height: auto;
+    width: 600px;
+  }
+  section {
+    width: 50%;
+  }
+  section img {
+    border-radius: 10px 0 0 10px;
+  }
+  section .bild-mobile {
+    display: none;
+  }
+  section .bild-desktop {
+    display: block;
+  }
+  article {
+    padding: 40px;
+    width: 50%;
+  }
+  h2 {
+    margin-top: 0;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

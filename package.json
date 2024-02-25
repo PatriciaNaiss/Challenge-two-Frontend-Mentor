@@ -1,0 +1,16 @@
+{
+  "name": "produkt-preview",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "sass --watch style.scss main.css & live-server",
+    "build:dev": "sass --watch style.scss main.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "sass": "^1.60.0"
+  }
+}
